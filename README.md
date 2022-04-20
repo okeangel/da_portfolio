@@ -1,5 +1,3 @@
-# Data Analytics Practice Works
-
 # A portfolio lies here
 The portfolio of my academic work in data analysis.
 
@@ -8,4 +6,3 @@ The portfolio of my academic work in data analysis.
 - `pending` projects;
 - project under `dev`elopment;
 - finished projects `portfolio`.
-
