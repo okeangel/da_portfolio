@@ -5,4 +5,4 @@ The portfolio of my academic work in data analysis.
 - project file `templates`;
 - `pending` projects;
 - project under `dev`elopment;
-- finished projects `portfolio`.
+- the `portfolio` of finished projects.
