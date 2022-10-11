@@ -3,4 +3,6 @@ pandas
 scipy
 matplotlib
 seaborn
-
+geopandas
+cartopy
+ipyleaflet
