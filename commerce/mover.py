@@ -159,3 +159,29 @@ class Session:
         req.add_header('cookie', f'token={self.token}')
         response = urllib.request.urlopen(req)
         return response.read()
+
+    def get_items(self, resource, items_name):
+        response = self.request(resource)
+        if not isinstance(response[items_name], list):
+            return response[items_name]
+        
+        items = {item['id']: item for item in response[items_name]}
+        received_count = len(response[items_name])
+        while response[items_name]:
+            params = {'offset': received_count}
+            url = resource + '?' + urllib.parse.urlencode(params)
+            response = self.request(url)
+            items.update({item['id']: item for item in response[items_name]})
+            received_count += len(response[items_name])
+        
+        new_items_count = received_count - len(items)
+        received_count = 0
+        while new_items_count > 0:
+            params = {'offset': received_count}
+            url = resource + '?' + urllib.parse.urlencode(params)
+            response = self.request(url)
+            items.update({item['id']: item for item in response[items_name]})
+            new_items_count -= len(response[items_name])
+            received_count += len(response[items_name])
+
+        return sorted(d.values(), key=lambda item: item['id'], reverse=True)
