@@ -184,4 +184,4 @@ class Session:
             new_items_count -= len(response[items_name])
             received_count += len(response[items_name])
 
-        return sorted(d.values(), key=lambda item: item['id'], reverse=True)
+        return sorted(items.values(), key=lambda item: item['id'], reverse=True)
