@@ -6,3 +6,4 @@ seaborn
 geopandas
 cartopy
 ipyleaflet
+python-docx
