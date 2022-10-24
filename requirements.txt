@@ -4,7 +4,4 @@ scipy
 matplotlib
 seaborn
 plotly
-# geopandas
-# cartopy
-# ipyleaflet
-# python-docx
+folium
