@@ -3,7 +3,8 @@ pandas
 scipy
 matplotlib
 seaborn
-geopandas
-cartopy
-ipyleaflet
-python-docx
+plotly
+# geopandas
+# cartopy
+# ipyleaflet
+# python-docx
