@@ -1,3 +1,4 @@
+jupyter_nbextensions_configurator
 notebook
 pandas
 scipy
