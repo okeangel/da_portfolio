@@ -1,8 +1,8 @@
-# A portfolio lies here
-The portfolio of my academic work in data analysis.
+# Portfolio rests here
+Here is a portfolio of my work in data analysis.
 
 # Directories contain:
-- project file `templates`;
+- `templates` for research projects;
 - `pending` projects;
-- project under `dev`elopment;
-- the `portfolio` of finished projects.
+- projects under development;
+- `portfolio` of finished projects.
