@@ -3,6 +3,4 @@ Here is a portfolio of my work in data analysis.
 
 # Directories contain:
 - `templates` for research projects;
-- `pending` projects;
-- projects under development;
-- `portfolio` of finished projects.
+- research projects created while learning "Yandex.Practicum" data analytics course.
