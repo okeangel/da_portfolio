@@ -1,8 +1,19 @@
-# A portfolio lies here
-The portfolio of my academic work in data analysis.
+# Анализ данных: портфолио и шаблоны
 
-# Directories contain:
-- project file `templates`;
-- `pending` projects;
-- project under `dev`elopment;
-- the `portfolio` of finished projects.
+
+## Яндекс.Практикум
+
+Данные проекты были выполнены в ходе обучения в Яндекс.Практикуме, профессии "Аналитик данных" / "Специалист по Data Science".
+
+| Название проекта | Задача | Используемые библиотеки | 
+| :---------------------- | :---------------------- | :---------------------- |
+| [Музыка больших городов](practicum/week_02_basic_operations_music_of_big_cities) | Сравнение предпочтений пользователей Яндекс.Музыки из Москвы и Санкт-Петербурга в зависимости от времени (утро и вечер) и дня недели (понедельник, среда, пятница)| *Jupyter Notebook, Pandas.* |
+| [Оценка надёжности заёмщиков](practicum/week_04_preprocessing_credit_scoring) | Описать связи между категориями заёмщиков и тем, будет ли возвращён займ в срок. | *Jupyter Notebook, Pandas, Seaborn.* |
+| [Исследование объявлений о продаже квартир](practicum/week_06_exploratory_data_analysis_real_estate) | Установить признаки, при наличии которых объявление можно считать аномальным. Это позволит автоматически выявлять потенциально мошеннические объявления. | *Jupyter Notebook, Pandas, Matplotlib, Seaborn.* |
+| [Определение перспективного тарифа для телеком-компании](practicum/week_08_statistical_data_analysis_mobile_tariffs) | Определить, какой из тарифов приносит "больше денег". На основе анализа будет "скорректирован" рекламный бюджет. | *Jupyter Notebook, Pandas, Matplotlib, Seaborn.* |
+| [Исследование признаков успешной игры](practicum/week_09_combined_game_store) | Выявить закономерности, которые определяют успешность игры, чтобы магазин мог выбрать потенциально популярный продукт, закупил и рекламировал именно его. | *Jupyter Notebook, Pandas, Matplotlib, Seaborn, Numpy, Scipy.stats .* |
+| [Анализ бизнес-показателей. Поиск причины убытков в рекламе.](practicum/week_14_marketing) | Найти причину убытков от рекламной кампании, возникших в последние несколько месяцев. Требуется, чтобы реклама окупала себя. | *Jupyter Notebook, Pandas, Matplotlib, Seaborn, Numpy, Scipy.stats .* |
+| [Оценка и проверка гипотез по увеличению выручки](practicum/week_18_hypotesis) | Расставить гипотезы по увеличению выручки по приоритету, начиная с наиболее перспективной. Запустить A/B-тест, проанализировать его результаты. | *Jupyter Notebook, Pandas, Matplotlib, Seaborn, Numpy, Scipy.stats .* |
+| [Изучение поведения пользователей мобильного приложения в воронке продаж](practicum/week_19_combined_2) | Изучить воронку продаж. Где застревают пользователи на пути к целевому действию? Как они отреагировали на изменение шрифта? | *Jupyter Notebook, Pandas, Matplotlib, Seaborn, Numpy, Scipy.stats .* |
+| [Предприятия общественного питания в Москве](practicum/week_21_presentation_catering_in_moscow) | Инвестор выбирает, какое предприятие питания и где открыть. Нужно описание предприятий общественного питания в Москве. Расположение, тип, меню, цены. Составить лаконичную презентацию. | *Jupyter Notebook, Pandas, Numpy, Matplotlib, Seaborn, Numpy, Scipy.stats, Plotly, Folium.* |
+| [Анализ поведения пользователей приложения](practicum/week_25_product_analytics) | Ответить на вопросы продакт-менеджера мобильного приложения. Приложение является площадкой для тех, кто хотел бы отдать вещи даром или получить их. Продакт-менеджер желает вовлекать большую долю пользователей в целевое действие. Также он ищет предложения, как улучшить приложение. | *Jupyter Notebook, Pandas, Numpy, Matplotlib, Seaborn, Plotly, Tableau.* |
