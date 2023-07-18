@@ -1,5 +1,5 @@
-jupyter_nbextensions_configurator
 notebook
+jupyter_nbextensions_configurator
 pandas
 scipy
 matplotlib
